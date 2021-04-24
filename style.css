@@ -8,7 +8,7 @@ body {
 }
 
 .headercontainer {
-    background-image: url(/Assets/totorotree.jpg);
+    background-image: url(./Assets/totorotree.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
