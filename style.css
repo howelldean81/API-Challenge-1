@@ -46,33 +46,3 @@ body {
     100%{background-position:0% 50%}
 }
 
-.construct .list-headers {
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    max-width: 480px;
-
-    margin: 30px auto 0px;
-    padding: 0px 15px;
-}
-
-.construct .list {
-    display: block;
-    width: 100%;
-    max-width: 480px;
-
-    margin: 0px auto;
-}
-
-.construct .list .list-item {
-    display: flex;
-    justify-content: space-between;
-
-    width: 100%;
-    max-width: 480px;
-
-    margin: 0px 15px;
-    padding: 15px;
-}
-
