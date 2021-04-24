@@ -18,9 +18,12 @@ fetch(baseURL)
                 running_time:   Number(movie.running_time)
             }
         })
+
+        displayResults(movieDetails)
+
         console.log(movieDetails)
         sortTitleButton.onclick = function () {
-            movieDetails.sort((a, b) =>  a.localeCompare(b))
+            movieDetails.sort((a, b) => a.toString().localeCompare(b))
             displayResults(movieDetails)
         }
         sortDateButton.onclick = function () {

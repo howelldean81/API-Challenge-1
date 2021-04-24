@@ -16,14 +16,14 @@
                 <img class="mx-auto d-block img-fluid" src="./Assets/ghib-sort.png" alt="...">
             </div>
         </div>
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom nomargin">
             <button type="button" id="sort-title-button" class="btn btn-outline-light btn-lg rounded-pill p-3 m-2">Title</button>
             <button type="button" id="sort-date-button" class="btn btn-outline-light btn-lg rounded-pill p-3 m-2">Release Date</button>
             <button type="button" id="sort-rotten-button" class="btn btn-outline-light btn-lg rounded-pill p-3 m-2">Rotten Tomatoes</button>
             <button type="button" id="sort-time-button" class="btn btn-outline-light btn-lg rounded-pill p-3 m-2">Running Time</button>
         </header>
     </div>
-    <table class="table sticky">
+    <table class="table table-striped">
         <thead>
           <tr>
             <th scope="col">Title (タイトル)</th>
@@ -32,7 +32,7 @@
             <th scope="col">Running Time (腐ったトマト)</th>
           </tr>
         </thead>
-        <tbody id="movieTable">
+        <tbody class="flashy" id="movieTable">
         </tbody>
       </table>
 
