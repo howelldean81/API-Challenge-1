@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Avant';
+    src:url(./Fonts/Avant.ttf)
+}
+
+body {
+    font-family: 'Avant';
+}
+
+.headercontainer {
+    background-image: url(/Assets/totorotree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.btn:hover {
+    /* Zoom the buttons */
+    transform: scale(1.08);
+    transition: transform .3s;
+
+    /* Apply gradient animation */
+    background: linear-gradient(270deg, #772b47, transparent, #330066, 
+    #2b7733, transparent, #6d772b);
+    background-size: 400% 400%;
+
+    -webkit-animation: smoothCriminal 15s ease infinite;
+    -moz-animation: smoothCriminal 15s ease infinite;
+    animation: smoothCriminal 15s ease infinite;
+    color: white;
+    font-weight: bold;
+}
+
+@-webkit-keyframes smoothCriminal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes smoothCriminal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes smoothCriminal {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.construct .list-headers {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 480px;
+
+    margin: 30px auto 0px;
+    padding: 0px 15px;
+}
+
+.construct .list {
+    display: block;
+    width: 100%;
+    max-width: 480px;
+
+    margin: 0px auto;
+}
+
+.construct .list .list-item {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 480px;
+
+    margin: 0px 15px;
+    padding: 15px;
+}
+
